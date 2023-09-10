@@ -3,3 +3,55 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+figure {
+  text-align: center;
+  /*width: 600px;
+  /*align-self: center;
+  align-items: center;*/
+}
+nav {
+/*  align-content: center;
+  align-self: center;
+  align-items: center;*/
+  align: center;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color:aquamarine;
+}
+section#featured-property {
+  float: center;
+  align: center;
+  /*align-content:center;
+  width:960px;*/
+}
+img {
+  width: 840px;
+}
+/* trying multiple things; can't get the paragraphs to float with image */
+section#featured-property > p {
+/*  float: center;*/
+  width: 800px;
+  text-align: center;
+}
+figcaption {
+  text-align: center;
+  font-size: 80%;
+}
+section#details {
+  width: 100%;
+  background-color: orangered; /* no effect? */
+}
+section#details div {
+  float: left; /* not   display:inline;*/
+  text-align: center;
+  background-color: orangered;
+  width: 25%;
+}
